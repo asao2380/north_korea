@@ -1,0 +1,832 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>hinanbasyo</name>
+	<open>1</open>
+	<StyleMap id="msn_Flag_of_South_Korea.svg">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_Flag_of_South_Korea.svg</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_Flag_of_South_Korea.svg</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_caution00">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_china">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_china</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_china</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_caution2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_caution00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_caution1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_Flag_of_Japan.svg">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_Flag_of_Japan.svg</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_Flag_of_Japan.svg</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_play">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/play.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_firedept">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/firedept.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_caution">
+		<IconStyle>
+			<scale>1.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ltblu-blank">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_Flag_of_South_Korea.svg">
+		<IconStyle>
+			<scale>2.1</scale>
+			<Icon>
+				<href>../kan.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_caution1">
+		<IconStyle>
+			<color>ff00aaff</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_caution0">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ltblu-blank">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_caution0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_caution2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_caution0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_Flag_of_South_Korea.svg">
+		<IconStyle>
+			<scale>1.8</scale>
+			<Icon>
+				<href>../kan.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_firedept">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_firedept</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_firedept</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_caution2">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_caution00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_caution1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_caution00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_caution1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_caution</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_caution</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_caution">
+		<IconStyle>
+			<scale>2.12727</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_china">
+		<IconStyle>
+			<scale>3.5</scale>
+			<Icon>
+				<href>../china.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_Flag_of_Japan.svg">
+		<IconStyle>
+			<scale>2.2</scale>
+			<Icon>
+				<href>../jap.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ltblu-blank">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ltblu-blank</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ltblu-blank0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_caution">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_caution0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_caution2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_china">
+		<IconStyle>
+			<scale>3</scale>
+			<Icon>
+				<href>../china.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_Flag_of_Japan.svg">
+		<IconStyle>
+			<scale>2.56667</scale>
+			<Icon>
+				<href>../jap.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_firedept">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/firedept.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_caution2">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ltblu-blank0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_so">
+		<IconStyle>
+			<scale>3.2</scale>
+			<Icon>
+				<href>../so.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_caution00">
+		<IconStyle>
+			<color>ff00aaff</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_play">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/play.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ltblu-blank0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ltblu-blank0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ltblu-blank</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_caution0">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_caution1">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_so">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_so</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_Flag_of_the_Soviet_Union.svg</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ltblu-blank0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_play">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_play</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_play</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_Flag_of_the_Soviet_Union.svg">
+		<IconStyle>
+			<scale>3.73333</scale>
+			<Icon>
+				<href>C:/Users/guest_659710y/Desktop/大学/Flag_of_the_Soviet_Union.svg.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Placemark>
+		<name>太平洋戦争</name>
+		<description>日ソ中立条約締結(1941)～ソ連対日宣戦布告(1945.8.9)、日本無条件降伏(1945.8.15)まで、結局金日成部隊の参戦はなくソ連にて待機。</description>
+		<LookAt>
+			<longitude>128.281798779923</longitude>
+			<latitude>40.721637213234</latitude>
+			<altitude>0</altitude>
+			<heading>-2.655734981555099</heading>
+			<tilt>44.96823000624276</tilt>
+			<range>1728251.208622429</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<TimeSpan>
+			<begin>1941</begin>
+			<end>1945</end>
+		</TimeSpan>
+		<styleUrl>#msn_caution0</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>129.9936290048559,48.69922499474897,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>朝鮮戦争</name>
+		<description>南北朝鮮の関係に国連が介入し、統一選挙の実施を命令。
+・朝鮮南部、国連の監視のもと単独で選挙を実施
+北部の議席を空席とし、全朝鮮を版図とする「大韓民国」の成立宣言(1948年8月15日)。
+それを受けて北朝鮮側も全朝鮮を版図とする「朝鮮民主主義人民共和国」の設立宣言(1948年9月9日)。
+
+1950年　朝鮮戦争勃発
+中国・ソ連が北朝鮮側、アメリカを中心とした国連加盟国が韓国側として参戦した。
+
+1951～1953年　停戦会談
+戦争責任として党内の粛清が行われ、多くの有力者が死亡・失脚したことにより、党内における金日成の求心力が一段と高まる。</description>
+		<LookAt>
+			<longitude>127.8403502069319</longitude>
+			<latitude>38.60823351016723</latitude>
+			<altitude>0</altitude>
+			<heading>-2.895653941442825</heading>
+			<tilt>1.679189895298732</tilt>
+			<range>738059.3213849982</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<TimeSpan>
+			<begin>1948</begin>
+			<end>1953</end>
+		</TimeSpan>
+		<styleUrl>#msn_firedept</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>126.9645526136524,37.89726729395259,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>満州事変</name>
+		<description>日本軍が満州に侵攻。
+中国軍と日本軍が衝突する中、
+1933年、「金日成」が中国軍の東北人民革命軍の幹部として抗日ゲリラ戦に参戦。
+1940年、日本軍の東北ゲリラへの鎮圧作戦強化により壊滅。金日成の部隊はソ連へと越境し、ソ連を拠点に日本との交戦の姿勢。</description>
+		<LookAt>
+			<longitude>127.6141570413905</longitude>
+			<latitude>41.95055129708916</latitude>
+			<altitude>0</altitude>
+			<heading>-3.041691971510657</heading>
+			<tilt>2.704686797257944</tilt>
+			<range>1519725.126317522</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<TimeSpan>
+			<begin>1933</begin>
+			<end>1940</end>
+		</TimeSpan>
+		<styleUrl>#msn_caution00</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>124.3127648200667,43.25471236606235,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>北朝鮮建国期</name>
+		<description>太平洋戦争終結後、金日成はソ連の艦隊で元山(ウォンサン)に上陸。
+その後、金日成を代表とした「臨時人民委員会」が発足(1946)し、土地改革や労働法令などの制度を定め、民衆からの支持を得る。
+1946年8月26日「北朝鮮労働党設立」北朝鮮の民主主義を強化し、南朝鮮への「民主主義的課業」の拡張と実行が宣言された。</description>
+		<LookAt>
+			<longitude>128.5100815349497</longitude>
+			<latitude>38.38760261069957</latitude>
+			<altitude>0</altitude>
+			<heading>-2.494141865603877</heading>
+			<tilt>1.58128252994781</tilt>
+			<range>948266.5425271159</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<TimeSpan>
+			<begin>1945</begin>
+			<end>1947</end>
+		</TimeSpan>
+		<styleUrl>#msn_caution2</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>127.2701899160779,39.04201966331723,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>主体(チュチェ)宣言</name>
+		<description>ソ連派・反対派を一掃したことで、これからはソ連・中国と対等であることを宣言した。</description>
+		<LookAt>
+			<longitude>126.8859407154836</longitude>
+			<latitude>38.88289593605409</latitude>
+			<altitude>0</altitude>
+			<heading>-3.499834258075919</heading>
+			<tilt>1.415116171687906</tilt>
+			<range>177267.2897987987</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<TimeSpan>
+			<begin>1960</begin>
+			<end>1962</end>
+		</TimeSpan>
+		<styleUrl>#msn_caution2</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>126.4974779162958,39.07673979250775,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>ソ連派の弾圧</name>
+		<description>党内のソ連派の有力者が、金日成への個人崇拝を危険視し排除を試みたが、大多数の議員の反対により処罰される。
+その後、党内の反対派が粛清により一掃され、金日成の個人崇拝はますます強まっていった。</description>
+		<LookAt>
+			<longitude>126.8859407154836</longitude>
+			<latitude>38.88289593605409</latitude>
+			<altitude>0</altitude>
+			<heading>-3.499834258075919</heading>
+			<tilt>1.415116171687906</tilt>
+			<range>177267.2897987987</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<TimeSpan>
+			<begin>1955</begin>
+			<end>1957</end>
+		</TimeSpan>
+		<styleUrl>#msn_caution2</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>126.4947986099666,39.14546723446384,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>中国</name>
+		<description>中国</description>
+		<Camera>
+			<gx:TimeSpan>
+				<begin>1988</begin>
+				<end>2016-12-31</end>
+			</gx:TimeSpan>
+			<gx:ViewerOptions>
+				<gx:option name="historicalimagery"></gx:option>
+				<gx:option enabled="0" name="sunlight"></gx:option>
+				<gx:option enabled="0" name="streetview"></gx:option>
+			</gx:ViewerOptions>
+			<longitude>121.0173907022422</longitude>
+			<latitude>26.93396189620666</latitude>
+			<altitude>3944254.850307925</altitude>
+			<heading>-3.488118704119179</heading>
+			<tilt>21.80217863459692</tilt>
+			<roll>1.555922017278586</roll>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</Camera>
+		<styleUrl>#msn_china</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>116.6293393393103,39.06159717227407,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>ソ連</name>
+		<description>ソ連</description>
+		<Camera>
+			<gx:TimeSpan>
+				<begin>1988</begin>
+				<end>2016-12-31</end>
+			</gx:TimeSpan>
+			<gx:ViewerOptions>
+				<gx:option name="historicalimagery"></gx:option>
+				<gx:option enabled="0" name="sunlight"></gx:option>
+				<gx:option enabled="0" name="streetview"></gx:option>
+			</gx:ViewerOptions>
+			<longitude>123.5338526689249</longitude>
+			<latitude>38.72868076054592</latitude>
+			<altitude>2763838.232377385</altitude>
+			<heading>0.1624556763564603</heading>
+			<tilt>19.5179037126509</tilt>
+			<roll>-0.7610956466501038</roll>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</Camera>
+		<styleUrl>#msn_so</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>128.8966300203042,52.0992219991575,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>韓国(南朝鮮)</description>
+		<Camera>
+			<gx:TimeSpan>
+				<begin>1988</begin>
+				<end>2016-12-31</end>
+			</gx:TimeSpan>
+			<gx:ViewerOptions>
+				<gx:option name="historicalimagery"></gx:option>
+				<gx:option enabled="0" name="sunlight"></gx:option>
+				<gx:option enabled="0" name="streetview"></gx:option>
+			</gx:ViewerOptions>
+			<longitude>128.8527594367373</longitude>
+			<latitude>39.41034685228804</latitude>
+			<altitude>2382644.529320287</altitude>
+			<heading>-6.588268840985351</heading>
+			<tilt>5.420526364334951</tilt>
+			<roll>-0.9337910729695816</roll>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</Camera>
+		<styleUrl>#msn_Flag_of_South_Korea.svg</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>127.8865172356438,36.03995005193489,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>中ソ対立</name>
+		<description>中国とソ連の対立が激化することにより両国からの支援が削減される。</description>
+		<Camera>
+			<longitude>119.4303168279636</longitude>
+			<latitude>40.65619876228322</latitude>
+			<altitude>2659419.801615428</altitude>
+			<heading>-4.4655470022043</heading>
+			<tilt>3.361203769234745</tilt>
+			<roll>-1.809646862615861</roll>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</Camera>
+		<TimeSpan>
+			<begin>1963</begin>
+			<end>1965</end>
+		</TimeSpan>
+		<styleUrl>#msn_caution00</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>121.7341723206043,45.32301510232429,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>ベトナム戦争激化</name>
+		<description>ベトナム戦争の影響を受け、革命のために対南ゲリラ闘争を開始する。
+1968年　韓国大統領官邸襲撃事件
+　　　　　 米軍情報収集艦プエブロ号拿捕
+
+しかし韓国は蜂起することはなく革命戦略は失敗に終わる。</description>
+		<LookAt>
+			<longitude>111.7614311436194</longitude>
+			<latitude>15.54420797861589</latitude>
+			<altitude>0</altitude>
+			<heading>-22.1881789467686</heading>
+			<tilt>1.167187729342923</tilt>
+			<range>5540500.850718502</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<TimeSpan>
+			<begin>1965</begin>
+			<end>1969</end>
+		</TimeSpan>
+		<styleUrl>#msn_caution00</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>108.0033899770171,15.4015744314439,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>ソウルオリンピック</name>
+		<description>副首相が韓国を訪問し、韓国の経済成長に危機感を覚え、自国の経済成長に着手する。西欧諸国との国交樹立を開始するも、オイルショック発生により経済難へ。
+
+1988年　ソウルオリンピック開催
+北朝鮮はボイコットした状態で開催される。
+
+東欧の共産党政権の国々が相次いで瓦解。
+孤立への危機感から、韓国・日本との関係改善を進める。</description>
+		<LookAt>
+			<longitude>127.6409092434655</longitude>
+			<latitude>36.00119240933211</latitude>
+			<altitude>0</altitude>
+			<heading>-14.85831098158974</heading>
+			<tilt>0.649552737510658</tilt>
+			<range>886377.8188308465</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<TimeSpan>
+			<begin>1974</begin>
+			<end>1990</end>
+		</TimeSpan>
+		<styleUrl>#msn_play</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>127.0782091333182,37.33060216522924,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>日朝交渉開始</name>
+		<description>1991年　日朝交渉
+これまでの歴史での植民地化などから日本に賠償請求を行うが拒否される。
+核開発への疑念から関係修復は成功せず。</description>
+		<LookAt>
+			<longitude>128.6429539504733</longitude>
+			<latitude>37.22851656101295</latitude>
+			<altitude>0</altitude>
+			<heading>-14.24448728641206</heading>
+			<tilt>0.5682724894898944</tilt>
+			<range>1658513.169290521</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<TimeSpan>
+			<begin>1991</begin>
+			<end>1993</end>
+		</TimeSpan>
+		<styleUrl>#msn_ltblu-blank0</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>132.8171664640148,38.21264533456643,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>核開発に着手</name>
+		<description>ソ連の核の傘下から抜けたことで、自国の核開発に着手する（1991年）</description>
+		<LookAt>
+			<longitude>129.7141669061898</longitude>
+			<latitude>37.58635988054994</latitude>
+			<altitude>0</altitude>
+			<heading>-13.63989046976515</heading>
+			<tilt>0.5430921499886081</tilt>
+			<range>1300937.743761215</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<TimeSpan>
+			<begin>1990</begin>
+			<end>1993</end>
+		</TimeSpan>
+		<styleUrl>#msn_caution1</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>126.6952205902695,38.68865787391244,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>ソ連崩壊</name>
+		<description>最大貿易国であったソ連の崩壊(1991年)により経済に大きな打撃を受ける。
+土地賃貸法、外国投資銀行法成立(1992年)などにより外資工場の流入を図るが進出企業はゼロ。</description>
+		<LookAt>
+			<longitude>126.3468148017175</longitude>
+			<latitude>46.58262167420249</latitude>
+			<altitude>0</altitude>
+			<heading>-16.08651483137768</heading>
+			<tilt>0.3572425341308198</tilt>
+			<range>2430233.944803219</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<TimeSpan>
+			<begin>1991</begin>
+			<end>1993</end>
+		</TimeSpan>
+		<styleUrl>#msn_caution1</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>129.078241635387,51.32009887339644,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>“瀬戸際外交”スタート</name>
+		<description>資金援助を訴え威嚇行動として弾道ミサイル「ノドン」を発射。
+IAEA(国際原子力機関)の査察を受け入れる代わりに、アメリカに軽水炉の導入を検討させる。
+しかし、IAEAからの査察をまともに受け入れず。</description>
+		<LookAt>
+			<longitude>129.3944347895953</longitude>
+			<latitude>42.25843637425746</latitude>
+			<altitude>0</altitude>
+			<heading>-14.00635233848565</heading>
+			<tilt>0.1845521580732802</tilt>
+			<range>3139335.845884409</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<TimeSpan>
+			<begin>1992</begin>
+			<end>1996</end>
+		</TimeSpan>
+		<styleUrl>#msn_ltblu-blank</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>126.6815569651892,38.59431057859232,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>先軍政治のスタート</name>
+		<description>金日生が心臓発作により死亡(1994年7月8日)、金正日が新たな首領へ。
+1995年、豪雨により食糧不足、大量飢餓の発生。
+「苦難の行軍精神で生き、闘争していこう」スローガンの発表、軍人精神を理想とし、最高司令官(金正日)と軍隊が国家を管理する体制への移行。
+
+すべての面において軍隊を優先するという旨の「先軍政治宣言」(1999)を発令。</description>
+		<LookAt>
+			<longitude>128.8322655880502</longitude>
+			<latitude>41.5075721726505</latitude>
+			<altitude>0</altitude>
+			<heading>-14.35995188701388</heading>
+			<tilt>0.1712854374929807</tilt>
+			<range>2450463.807143234</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<TimeSpan>
+			<begin>1994</begin>
+			<end>2017</end>
+		</TimeSpan>
+		<styleUrl>#msn_caution</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>126.693899564613,38.77884303085573,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>日本</name>
+		<LookAt>
+			<gx:TimeSpan>
+				<begin>1988</begin>
+				<end>2016-12-31</end>
+			</gx:TimeSpan>
+			<longitude>128.4557089627342</longitude>
+			<latitude>38.20379667378382</latitude>
+			<altitude>0</altitude>
+			<heading>-7.263323420416512</heading>
+			<tilt>0</tilt>
+			<range>3093685.171473007</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_Flag_of_Japan.svg</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>134.6902123304842,35.45317991223724,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>
